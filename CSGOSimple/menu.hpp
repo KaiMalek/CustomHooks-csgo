@@ -1,0 +1,35 @@
+#pragma once
+
+#include <string>
+#include "singleton.hpp"
+#include "imgui/imgui.h"
+
+struct IDirect3DDevice9;
+
+class Menu
+    : public Singleton<Menu>
+{
+public:
+    void Initialize();
+    void Shutdown();
+
+    void OnDeviceLost();
+    void OnDeviceReset();
+
+    void SpectatorList();
+
+    void Watermark();
+
+    void PlayerList();
+
+    void Render();
+
+    void Toggle();
+
+    void Preview();
+
+    bool IsVisible() const { return _visible; }
+private:
+    ImGuiStyle        _style;
+    bool              _visible;
+};

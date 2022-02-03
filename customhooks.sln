@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSGOSimple", "CSGOSimple\CSGOSimple.vcxproj", "{F3E42845-8D56-4BB3-821D-8163AB1337F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Debug|x64.ActiveCfg = Debug|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Debug|x86.Build.0 = Debug|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Release|x64.ActiveCfg = Release|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Release|x86.ActiveCfg = Release|Win32
+		{F3E42845-8D56-4BB3-821D-8163AB1337F0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B9BE9D8-1A7F-4AC0-BCA2-459371959E51}
+	EndGlobalSection
+EndGlobal
