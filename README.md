@@ -5,7 +5,6 @@ Will be continuing this project on another base in a few months.
 
 A few showcases on my youtube channel down below.
 
-
 Socials :
 
 https://customhooks.tk/
@@ -19,3 +18,5 @@ https://discord.gg/qyNaSX3Eq4
 Discord :
 
 Killer Bean#0112
+
+Release x86
