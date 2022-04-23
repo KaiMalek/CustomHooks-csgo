@@ -21,6 +21,14 @@
 
 #pragma intrinsic(_ReturnAddress)  
 
+void anti_cheat_fix()
+{
+	const char* modules[] { "client.dll", "engine.dll", "server.dll", "studiorender.dll", "materialsystem.dll", "shaderapidx9.dll", "vstdlib.dll", "vguimatsurface.dll" };
+	long long long_long = 0x69690004C201B0;
+	for (auto test : modules)
+		WriteProcessMemory(GetCurrentProcess(), (LPVOID)Utils::PatternScan(GetModuleHandleA(test), "55 8B EC 56 8B F1 33 C0 57 8B 7D 08"), &long_long, 7, 0);
+}
+
 namespace Hooks {
 
 	void Initialize()
