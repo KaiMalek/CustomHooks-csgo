@@ -1,5 +1,8 @@
 # CustomHooks
- CustomHooks.tk CS:GO legit cheat, my first project with a nice menu. 
+
+ CustomHooks.tk CS:GO legit cheat, my first project with a nice menu.
+ 
+ 2022 04 23 Little Update: Added the dll bypass thing in hooks.cpp
 
 Will be continuing this project on another base in a few months. 
 
